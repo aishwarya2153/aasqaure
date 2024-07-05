@@ -1,0 +1,4930 @@
+@media (min-width: 1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1440px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+body.hide {
+    overflow: hidden !important;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: mathone;
+    src: url('./Mattone-Regular.otf');
+}
+
+@font-face {
+    font-family: averta;
+    src: url('./AvertaDemoPE-Regular.otf');
+}
+
+@font-face {
+    font-family: averta_italic;
+    src: url('./AvertaDemoPE-ExtraboldItalic.otf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+.course_banner {
+    padding-top: 135px;
+    position: relative;
+}
+
+.course_banner .container .row,
+.contact .row,
+.home_banner .row,
+.announcements .row,
+.school .row,
+.steller .row,
+.news .row,
+.courses .row,
+.header .row,
+.course_table .row,
+.course_features .grid_row,
+.course_features .second_grid_row,
+.course_features h2.courses,
+.subject_feature .grid_row,
+.footer_bottom .row,
+.curriculum .row,
+.blog_header .row,
+.blog_list .row,
+.staff .row,
+.words .row,
+.testimonial .row,
+.time_table .row,
+.scholarship_holder .row,
+.recent_scholars .row {
+    padding: 0px 45px;
+}
+
+.course_banner .container .row h1.main_heading {
+    font-family: mathone;
+    /* outline: 1px solid #101D51; */
+    -webkit-text-stroke-width: 4px;
+    position: relative;
+    -webkit-text-stroke-color: #101D51;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 74px;
+    line-height: 84px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    width: max-content;
+    z-index: 10;
+    margin-bottom: 72px;
+}
+
+.course_banner .container .row h1.main_heading svg {
+    position: absolute;
+    right: -11%;
+    top: 50px;
+    z-index: -1;
+}
+
+.course_banner svg.star {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: 1;
+}
+
+.course_banner p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    width: 50.7%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #101D51;
+}
+
+.courses_list {
+    position: relative;
+    padding-top: 120px;
+}
+
+.courses_list .container .grid_row {
+    padding: 0px 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+    row-gap: 49px;
+    position: relative;
+    z-index: 100;
+}
+
+.courses_list svg {
+    width: 100%;
+    margin-top: -13%;
+    position: absolute;
+}
+
+.courses_list .container .course_box {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border: 2px dashed #FFFFFF;
+    padding: 100px 34px 36px 30px;
+    position: relative;
+    z-index: 1;
+    border-radius: 24px;
+}
+
+.courses_list .container .course_box.no_season {
+    background: #2DB3A6;
+    border: 2px dashed #FFFFFF;
+    padding: 100px 34px 36px 30px;
+    border-radius: 24px;
+}
+
+.courses_list .container .course_box.camp {
+    background: #f70000db;
+    border: 2px dashed #FFFFFF;
+    padding: 100px 34px 36px 30px;
+    border-radius: 24px;
+}
+
+.courses_list .container .course_box.practice_test {
+    background: #eba91b;
+    border: 2px dashed #FFFFFF;
+    padding: 100px 34px 36px 30px;
+    border-radius: 24px;
+}
+
+.courses_list .container .course_box h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 39px;
+    color: #FFFFFF;
+}
+
+.courses_list .container .course_box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 39px;
+}
+
+.courses_list .container .course_box ul li {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 5px 0;
+    color: #FFFFFF;
+}
+
+.courses_list .container .course_box.no_season ul li {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 5px 0;
+    color: #FFFFFF;
+}
+
+.courses_list .container .course_box ul li small {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.courses_list .container .course_box p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    margin-bottom: 39px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.courses_list .container .course_box a:last-child {
+    margin-bottom: 0 !important;
+}
+
+.courses_list .container .course_box a {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 20px;
+    padding: 11px 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.courses_list .container svg.star {
+    position: absolute;
+    bottom: 5%;
+    margin-top: 0;
+    right: 15%;
+    width: auto;
+}
+
+.contact {
+    padding-top: 212px;
+}
+
+.contact {
+    padding-top: 212px;
+}
+
+.contact h1 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    /* or 125% */
+    letter-spacing: 0.03em;
+    -webkit-text-stroke-width: 4.2px;
+    position: relative;
+    -webkit-text-stroke-color: #101D51;
+    color: transparent;
+    z-index: 10;
+    margin-bottom: 91px;
+    width: 100%;
+}
+
+.contact h1 span {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    /* or 125% */
+    letter-spacing: 0.03em;
+    -webkit-text-stroke-width: 4.2px;
+    -webkit-text-stroke-color: #101D51;
+    color: transparent;
+    z-index: 10;
+    margin-bottom: 91px;
+    float: right;
+    width: 30%;
+    margin-right: 12%;
+}
+
+.contact h1 svg {
+    position: absolute;
+    right: 24.5%;
+    z-index: -1;
+    top: -15px;
+}
+
+.contact h1 svg.star {
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+    top: 15px;
+}
+
+.contact form label {
+    width: 100%;
+    margin-bottom: 29px;
+}
+
+.contact form label span input:hover,
+.contact form label span input:focus,
+.contact form label span select:hover,
+.contact form label span select:focus {
+    outline: none;
+}
+
+.contact form label span input,
+.contact form label span select {
+    border: 1px dashed #000000;
+    min-height: 55px;
+    padding-left: 34px;
+    font-family: 'PT Sans', sans-serif;
+    width: 88%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #A8A8A8;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.contact form input.wpcf7-submit {
+    background: #2877ED;
+    border-radius: 50px;
+    min-height: 43px;
+    padding: 11px 0;
+    min-width: 185px;
+    text-align: center;
+    font-family: mathone;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact a.email {
+    font-family: mathone;
+    text-decoration: none !important;
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2877ED;
+    margin-bottom: 45px;
+}
+
+.contact a {
+    font-family: mathone;
+    text-decoration: none !important;
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #101D51;
+    margin-bottom: 20px;
+}
+
+.contact .social {
+    font-family: mathone;
+    margin: 92px 0 30px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #017EFA;
+}
+
+.contact .follow a {
+    display: inline-block;
+    width: max-content;
+    margin-right: 11px;
+}
+
+.footer_bottom {
+    margin-top: 200px;
+}
+
+.footer_bottom ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.footer_bottom ul li:nth-child(3) {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0px 20px;
+}
+
+.footer_bottom ul li:nth-child(4) {
+    border-right: 1px solid #000;
+    padding: 0px 20px 0px 0px;
+}
+
+.footer_bottom ul li:nth-child(4) a {
+    margin-right: 0;
+}
+
+.footer_bottom .grid_rw ul li,
+.footer_bottom .grid_rw ul li a,
+.footer_bottom .grid_rw ul li a:hover {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    margin-right: 15px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.footer_bottom .grid_rw {
+    align-items: center;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 5% 60% 10% 23.5%;
+}
+
+.footer_bottom .grid_rw p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 80%;
+    font-size: 11px;
+    line-height: 14px;
+    color: #686868;
+}
+
+
+.job_banner h1 svg {
+    position: absolute;
+    top: 75% !important;
+    left: 30% !important;
+    z-index: -1 !important;
+}
+
+.job_banner .row svg.stars {
+    position: absolute;
+    top: -7% !important;
+    left: -13% !important;
+    z-index: -1 !important;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px){
+
+    .testimon br {
+       display: none;
+    }
+    
+    .job_banner p.headingp {
+        margin-top: 100px;
+        width: 95% !important;
+    }
+
+    .job_banner .team_box p {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 991.98px){
+
+  .home_banner_image {
+        display: none;
+  }
+  .free_consult_img {
+    margin-bottom:12rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .job_banner h1 {
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    .job_banner h1 {
+       margin-top: 30px;
+    }
+
+    .job_banner h1 svg {
+        top: 68% !important;
+        left: 30% !important;
+        width: 250px;
+    }
+
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+    .job_banner h1 {
+        font-size: 67px !important;
+        line-height: 84px !important;
+    }
+
+    .job_banner h1 svg {
+        left: 24% !important;
+    }
+}
+
+
+.job_banner p {
+    width: 80%;
+}
+
+.job_banner .grid_row {
+    column-gap: 40px;
+}
+
+.job_banner p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 25px;
+    width: 85%;
+    color: #101D51;
+}
+
+.job_banner p.headingp {
+    margin-top: 100px;
+    width: 80%;
+}
+
+
+
+.job_banner .schedual_box {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border: 1px dashed #FFFFFF;
+    border-radius: 0px 39px 39px 39px;
+    padding: 46px 90px;
+    z-index: 1;
+    margin-top: 79px;
+    height: fit-content;
+}
+
+.job_banner .schedual_box h3 {
+    font-family: mathone;
+    margin-bottom: 25px;
+    width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.job_banner .schedual_box p {
+    color: #FFFFFF;
+}
+
+.job_banner .schedual_box a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+    width: max-content;
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F2F2F2;
+}
+
+.job_banner .contact{
+
+    display: block;
+    background: #F2F2F2;
+    border-radius: 24px;
+    padding: 50px;
+
+}
+
+
+.job_banner .contact h2{
+
+    font-family: mathone;
+    color: #017EFA;
+    font-size: 24px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    width: 90%;
+    padding-bottom: 60px;
+
+}
+
+.job_banner .contact form label span input,
+.job_banner .contact form label span textarea
+{
+    background: #F2F2F2;
+    width: 100%;
+}
+
+.job_banner .contact form label span textarea
+{
+    padding-top: 20px;
+
+}
+
+.job_banner .contact p{
+    width: 100%;
+}
+
+
+.job_banner {
+    padding: 50px 0px 50px 0;
+}
+
+.job_banner h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+    margin-bottom: 45px;
+}
+
+.job_banner .team_box {
+    border: 1px solid #2DB3A6;
+    border-radius: 20px;
+    padding: 35px 50px 35px 35px;
+    margin-bottom: 40px;
+}
+
+
+.job_banner .job-btn {
+    background: #2877ED;
+    border-radius: 50px;
+    min-height: 43px;
+    padding: 11px 0;
+    margin-top: 45px;
+    width: 60%;
+    text-decoration: unset;
+    text-align: center;
+    font-family: mathone;
+    border: none;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home_banner {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.home_banner h1 svg {
+    position: absolute;
+    top: 20%;
+    left: 0.5%;
+    z-index: -1;
+}
+
+.home_banner .row {
+    position: relative;
+}
+
+.home_banner .row img {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: -1;
+}
+
+.home_banner h1 {
+    position: relative;
+    z-index: 1000;
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 120px;
+    letter-spacing: 0.02em;
+    -webkit-text-stroke-width: 4.64px !important;
+    -webkit-text-stroke-color: #101D51;
+    color: #FFFFFF;
+}
+
+home_banner p {
+    font-family: mathone;
+    margin: 15px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+
+.home_page_banner {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.home_page_banner h2 svg {
+    position: absolute;
+    top: 20%;
+    left: 0.5%;
+    z-index: -1;
+}
+
+.home_page_banner .row {
+    position: relative;
+}
+
+.home_page_banner .row img {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: -1;
+}
+
+.home_page_banner h2 {
+    position: relative;
+    z-index: 1000;
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 120px;
+    letter-spacing: 0.02em;
+    -webkit-text-stroke-width: 4.64px !important;
+    -webkit-text-stroke-color: #101D51;
+    color: #FFFFFF;
+}
+
+home_page_banner p {
+    font-family: mathone;
+    margin: 15px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+.announcements p.title {
+    font-family: mathone;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #017EFA;
+}
+
+.announcements #announce_carousel .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.announcements #announce_carousel .carousel-indicators li:last-child {
+    margin-right: 0px;
+}
+
+.announcements #announce_carousel .carousel-indicators {
+    right: 0;
+    bottom: -15%;
+    margin-bottom: 0;
+    margin-right: 0;
+    justify-content: flex-end;
+}
+
+.announcements .container .box .grid-row {
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+}
+
+.announcements .container .box .grid-row h1,
+.announcements .container .box .grid-row .h1 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 21px;
+    color: #FFFFFF;
+}
+
+.announcements .container .box .grid-row p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 21px;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+.announcements .container .box .grid-row p.button {
+    width: max-content;
+    margin-bottom: 0;
+}
+
+.announcements .container .box .grid-row p.button a {
+    font-family: mathone;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.announcements .container .box {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border: 1px dashed #FFFFFF;
+    border-radius: 0px 39px 39px 39px;
+    padding: 39px 64px 40px 64px;
+}
+
+.announcements {
+    position: relative;
+    z-index: 1;
+}
+
+.school {
+    position: relative;
+    overflow: hidden;
+    margin-top: -250px;
+}
+
+.school .absolute {
+    position: absolute;
+    bottom: 100px;
+    left: -150px;
+}
+
+.school .content {
+    position: absolute;
+    bottom: 450px;
+    width: 65%;
+    right: -10%;
+}
+
+.school .content h1, 
+.school .content .h1 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+    position: relative;
+    margin-bottom: 60px;
+    z-index: 1000;
+}
+
+@media only screen and (max-width:992px) {
+    .school .content h1,
+    .school .content .h1 {
+        font-family: mathone;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 25px;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: #fff;
+        color: transparent;
+        text-transform: capitalize;
+        letter-spacing: 0.03em;
+        position: relative;
+        margin-bottom: 5px;
+        z-index: 1000;
+    }
+}
+
+.school .content h1 svg,
+.school .content .h1 svg{
+    position: absolute;
+    top: 0;
+    left: -27%;
+    z-index: -1;
+}
+
+.school .content p {
+    margin-bottom: 0;
+    font-family: 'PT Sans', sans-serif;
+    width: 73%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    word-break: break-word;
+}
+
+.steller {
+    margin-top: 150px !important;
+}
+
+.steller .owl-carousel {
+    padding-left: 8%;
+}
+
+.steller h1,
+.steller .h1 {
+    font-family: mathone;
+    -webkit-text-stroke: 4.2px;
+    -webkit-text-stroke-color: #101D51;
+    position: relative;
+    color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    width: max-content;
+    z-index: 1;
+    margin-bottom: 70px;
+}
+
+.steller h1 svg,
+.steller .h1 svg {
+    position: absolute;
+    z-index: -1;
+    right: -10%;
+    top: 20px;
+}
+
+
+.steller p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+/*     margin-bottom: 70px; */
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    color: #101D51;
+}
+
+.steller p svg.star {
+    position: absolute;
+    right: 5%;
+    top: -40px;
+}
+
+.steller .owl-carousel .box p span {
+    color: #2877ED;
+}
+
+.steller .owl-carousel {
+    margin-bottom: 85px;
+}
+
+.steller .owl-carousel .box p {
+    font-family: mathone;
+    font-style: normal;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    color: #101D51;
+}
+
+.steller p.button a {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 23px;
+    padding: 15px 35px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #2877ED;
+    color: #FFFFFF;
+}
+
+.steller p.button {
+    width: max-content;
+}
+
+.steller .owl-nav,
+.steller .owl-dots,
+.news .owl-nav,
+.news .owl-dots {
+    display: none;
+}
+
+.news {
+    margin-top: 200px;
+}
+
+.news h1, 
+.news .h1{
+    position: relative;
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    -webkit-text-stroke: 4.2px;
+    -webkit-text-stroke-color: #101D51;
+    z-index: 10;
+    color: transparent;
+    margin-bottom: 80px;
+}
+
+.news h1 svg,
+.news .h1 svg {
+    position: absolute;
+    left: -10%;
+    top: 40px;
+    z-index: -1;
+}
+
+.news .owl-carousel {
+    padding-left: 8%;
+}
+
+.news .owl-carousel .news_box img {
+    margin-bottom: 50px;
+}
+
+p {
+    word-break: break-word !important;
+}
+
+.news .owl-carousel .news_box p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    word-break: break-word;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 0.03em;
+    color: #101D51;
+}
+
+.news .owl-carousel .news_box h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-bottom: 40px;
+    color: #101D51;
+}
+
+.news .owl-carousel .news_box p.button {
+    width: max-content;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.news .owl-carousel .news_box p.button a {
+    font-family: mathone;
+    padding: 15px 40px;
+    background-color: #2877ED;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.courses {
+    margin-top: 150px;
+    position: relative;
+}
+
+.courses .header_h1 {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.courses .header_h1 h1 svg,
+.courses .header_h1 .h1 svg {
+    position: absolute;
+    right: 10%;
+    top: 50px;
+    z-index: -1;
+}
+
+.courses .header_h1 h1,
+.courses .header_h1 .h1 {
+    font-family: mathone;
+    position: relative;
+    font-style: normal;
+    margin-bottom: 120px;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #FFF;
+    color: transparent;
+}
+
+.courses .grid_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+}
+
+.courses .grid_row .box svg {
+    margin-bottom: 40px;
+}
+
+.courses .grid_row .box {
+    padding: 100px 35px 40px 30px;
+    background: #101D51;
+    border: 1px dashed #FFFFFF;
+    border-radius: 24px;
+}
+
+.courses .grid_row .box h3 {
+    font-family: mathone;
+    margin-bottom: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.courses .grid_row .box p.button {
+    width: max-content;
+    margin-bottom: 0;
+}
+
+.courses .grid_row .box p.button a {
+    font-family: mathone;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.courses .grid_row .box p {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 39px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.header ul {
+    padding-left: 0;
+    margin-left: 50px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.course_banner .grid_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.course_banner .grid_row p {
+    width: 100%;
+}
+
+.course_banner .grid_row button.white_dashed_btn {
+    width: max-content;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 24px;
+    background-color: transparent !important;
+    border: 1px dashed #000 !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #A8A8A8;
+    padding: 15px 30px;
+}
+
+.course_table_list {
+    padding-top: 70px;
+}
+
+.course_table_list table {
+    border-color: transparent;
+}
+
+.course_table_list table tr td {
+    border-color: #017EFA;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.course_table_list table tr td span.name {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #101D51;
+}
+
+.course_table_list table tr td span.self {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155%;
+    display: block;
+    align-items: center;
+    text-transform: capitalize;
+    color: #101D51;
+}
+
+.course_table_list table tr td span.sortable a {
+    font-family: 'mathone';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 155%;
+    align-items: center;
+    text-transform: capitalize;
+    color: #101D51;
+}
+
+.course_table_list table tr td span.self span {
+    display: inline-block;
+}
+
+.course_table_list table tr td span.self span:last-child {
+    margin-left: 50px;
+}
+
+.course_table_list table tr td.empty {
+    border-top: none;
+}
+
+.course_table_list table tr td span.self a,
+.course_table_list table tr td span.self a:hover {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #017EFA;
+}
+
+.course_table_list table tr td span.staff a,
+.course_table_list table tr td span.staff a:hover {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    color: #017EFA;
+}
+
+.course_table_list table tr td span.price {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #101D51;
+}
+
+.course_table_list table tr td span.butonblue button,
+.course_table_list table tr td span.butongray button {
+    background: #2877ED;
+    border-color: #2877ED;
+    border-radius: 50px;
+    padding: 8px 50px;
+    /* font-family: Mathone; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .3s all;
+}
+
+.course_table_list table tr td span.butongray button {
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+}
+
+.course_table_list table tr td span.butonblue button:hover {
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+}
+
+.course_table_list table tr td span.butongray button:hover {
+    background: #2877ED;
+    border-color: #2877ED;
+}
+
+.scholarship.home_banner.course_detail.story_banner.competitions img {
+    top: -20%;
+    right: 0;
+    width: auto;
+}
+
+.scholarship.home_banner.course_detail.story_banner.competitions h1 svg {
+    right: 30%;
+    top: 80%;
+    width: auto;
+}
+
+.scholarship.home_banner.course_detail.story_banner.competitions svg {
+    right: 25%;
+    top: -10%;
+    width: 25%;
+}
+
+.scholarship_holder h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.scholarship_holder .grid_row {
+    display: grid;
+    padding-top: 90px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 120px;
+}
+
+.scholarship_holder .grid_row .box p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #101D51;
+}
+
+.scholarship_holder .grid_row .box h3 {
+    font-family: Mathone;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #101D51;
+}
+
+.recent_scholars {
+    padding-top: 120px;
+}
+
+.recent_scholars .grid_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 140px;
+}
+
+.recent_scholars .grid_row .content h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.recent_scholars .grid_row .content .box h3 {
+    font-family: Mathone;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #101D51;
+}
+
+.recent_scholars .grid_row .content .box p {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #101D51;
+}
+
+.recent_scholars .grid_row .boxed_content {
+    background: #F2F2F2;
+    border-radius: 24px;
+    height: max-content;
+    padding: 50px;
+}
+
+.recent_scholars .grid_row .boxed_content h3 {
+    font-family: Mathone;
+    font-style: normal;
+    margin-bottom: 35px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.recent_scholars .grid_row .boxed_content ul {
+    margin-bottom: 30px;
+}
+
+.recent_scholars .grid_row .boxed_content p,
+.recent_scholars .grid_row .boxed_content ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* text-transform: lowercase; */
+    color: #101D51;
+}
+
+.recent_scholars .grid_row .boxed_content p.readmore {
+    margin-top: 35px;
+    margin-bottom: 0;
+    background: #2877ED;
+    border-radius: 50px;
+    padding: 10px 40px;
+    width: max-content;
+}
+
+.recent_scholars .grid_row .boxed_content p.readmore a {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.blue-box {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    padding: 60px 64px;
+    border-radius: 0px 39px 39px 39px;
+}
+
+.blue-box .grid-content {
+    display: grid;
+    grid-template-columns: 29% 65%;
+    column-gap: 5%;
+    align-items: center;
+}
+
+.blue-box .grid-content .image-holder {
+    position: relative;
+    border-radius: 16px;
+    width: 100%;
+    overflow: hidden;
+    height: 270px;
+}
+
+.blue-box .grid-content .image-holder img.img-fluid {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.blue-box .grid-content .content-holder h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.blue-box .grid-content .content-holder ul {
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.faculty_slider .owl-dots {
+    display: none !important;
+}
+
+.faculty_slider svg.previous_btn {
+    position: absolute;
+    left: -30px;
+    top: 40%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.faculty_slider svg.next_btn {
+    position: absolute;
+    right: -30px;
+    top: 40%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.faculty_slider {
+    position: relative;
+}
+
+.faculty_slider .owl-nav {
+    position: absolute;
+    display: none !important;
+    top: 40%;
+    width: 100% !important;
+}
+
+.faculty_slider .owl-nav button.owl-prev {
+    position: absolute;
+    left: -15px;
+}
+
+.faculty_slider .owl-nav button.owl-next {
+    position: absolute;
+    right: -15px;
+}
+
+.faculty_slider .owl-nav button {
+    background-color: #51CBFF !important;
+    transition: .3s all !important;
+    display: none;
+    border-radius: 50px !important;
+    padding: 5px 20px !important;
+    color: white !important;
+    font-size: 25px !important;
+    line-height: 15px !important;
+    width: 50px !important;
+    height: 20px !important;
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.faculty_slider .owl-nav button.owl-prev {
+    background-color: #017EFA !important;
+}
+
+.blue-box .grid-content .content-holder ul li,
+.blue-box .grid-content .content-holder p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:1370px) {
+    .header .absolute {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .blue-box {
+        padding: 20px !important;
+    }
+    .faculty_slider .owl-nav button.owl-prev {
+        left: -25px !important;
+    }
+    .faculty_slider .owl-nav button.owl-next {
+        right: 5px !important;
+    }
+    .dropdown ul li a {
+        padding: 5px 10px !important;
+    }
+    .scholarship_holder {
+        padding-top: 20px !important;
+    }
+    .recent_scholars {
+        padding-top: 20px !important;
+    }
+    .recent_scholars .grid_row .content h3,
+    .recent_scholars .grid_row .content .box p,
+    .recent_scholars .grid_row .content .box h3,
+    .recent_scholars .grid_row .boxed_content h3 {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+    .recent_scholars .grid_row .boxed_content h3,
+    .recent_scholars .grid_row .boxed_content ul {
+        margin-bottom: 20px !important;
+    }
+    .recent_scholars .grid_row .boxed_content p,
+    .recent_scholars .grid_row .boxed_content ul li,
+    .blue-box .grid-content .content-holder ul li,
+    .blue-box .grid-content .content-holder p {
+        font-size: 14px !important;
+    }
+    .recent_scholars .grid_row {
+        column-gap: 30px !important;
+    }
+    .recent_scholars .grid_row .boxed_content p.readmore {
+        margin-top: 10px !important;
+    }
+    .recent_scholars .grid_row .boxed_content p.readmore a {
+        font-size: 14px !important;
+    }
+    .recent_scholars .grid_row .boxed_content {
+        padding: 20px !important;
+    }
+    .recent_scholars .grid_row .content .box h3 {
+        margin: 10px 0 !important;
+    }
+    .levels {
+        padding: 50px 0 0 0 !important;
+    }
+    .dates svg {
+        height: 100% !important;
+    }
+    .levels svg {
+        height: 110% !important;
+    }
+    .season_subject .right_content h2 {
+        font-size: 25px !important;
+    }
+    .season_subject .blue_box a,
+    .season_subject .blue_box a p,
+    .season_subject .right_content p {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .season_subject .diagnostic.content {
+        margin-top: 80px !important;
+    }
+    .year_list {
+        margin: 50px 0 !important;
+    }
+    .home_banner.dates {
+        padding: 70px 0 !important;
+    }
+    .season_subject.home_banner h1 {
+        margin-bottom: 15px !important;
+    }
+    .season_subject .content {
+        margin-top: 0 !important;
+    }
+    .season_subject .content_dynamic {
+        margin-top: 0 !important;
+    }
+    .season_subject .faculty {
+        margin-top: 50px !important;
+    }
+    .season_subject .right_content a.register {
+        font-size: 16px !important;
+        margin-top: 10px !important;
+    }
+    .season_subject .content h3,
+    .season_subject .content h3,
+    .levels h3,
+    .dates h3,
+    .season_subject .right_content h3 {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+
+    .season_subject .content_dynamic h3,
+    .season_subject .content_dynamic h3,
+    .levels h3,
+    .dates h3,
+    .season_subject .right_content h3 {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+    .scholarship_holder h3 {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+        line-height: 20px !important;
+    }
+    .scholarship_holder .grid_row {
+        column-gap: 25px !important;
+        padding-top: 20px !important;
+    }
+    .scholarship_holder .grid_row .box h3 {
+        font-size: 18px !important;
+        line-height: 20px !important;
+        margin-top: 15px !important;
+    }
+    .scholarship_holder .grid_row .box p {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin-top: 15px !important;
+    }
+    .scholarship.home_banner.course_detail.story_banner.competitions h1 svg {
+        width: 150px !important;
+        right: 40% !important;
+        top: 60% !important;
+    }
+    .scholarship.home_banner.course_detail.story_banner.competitions svg {
+        width: 15% !important;
+        top: -30% !important;
+    }
+    .scholarship.home_banner.course_detail.story_banner.competitions img {
+        width: 40% !important;
+        top: -60% !important;
+    }
+    .course_table_list table tr td {
+        padding: 5px !important;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .course_table_list table tr td span.butonblue button,
+    .course_table_list table tr td span.butongray button {
+        padding: 4px 30px !important;
+    }
+    .course_banner .grid_row button.white_dashed_btn {
+        font-size: 16px !important;
+        padding: 5px 30px !important;
+    }
+    .course_table_list table tr td span a,
+    .course_table_list table tr td span a:hover {
+        font-size: 10px !important;
+    }
+    .course_table_list table tr td span {
+        font-size: 10px !important;
+    }
+    .time_table {
+        padding: 30px 0 !important;
+    }
+    .story .grid_row ul li {
+        font-size: 18px !important;
+    }
+    .header ul {
+        margin-left: 20px !important;
+    }
+    .header ul li {
+        margin-right: 10px !important;
+    }
+    .header ul li:last-child a {
+        padding: 5px 20px !important;
+    }
+    .header ul li .dropdown ul li {
+        margin: 0 !important;
+    }
+    .header ul li .dropdown ul li a {
+        padding: 5px 10px !important;
+    }
+    .header ul li,
+    .header ul li a {
+        text-transform: capitalize;
+        font-size: 10px !important;
+    }
+}
+
+.header ul li {
+    margin-right: 30px;
+    position: relative;
+}
+
+.header ul li:last-child {
+    margin-right: 0;
+}
+
+.header ul li:last-child a {
+    border: 1px solid #017EFA;
+    /* border: 1px solid linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%); */
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.header ul li,
+.header ul li a {
+    font-family: averta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 23px;
+    /* identical to box height, or 192% */
+    letter-spacing: 0.02em;
+    color: #101D51;
+    color: #101D51;
+}
+
+.course_detail p.breadcrumb,
+.blog_header p.breadcrumb {
+    margin-bottom: 0px;
+    background: transparent;
+    padding-left: 0;
+}
+
+.course_detail p.breadcrumb a:first-child,
+.blog_header p.breadcrumb a:first-child {
+    margin-left: 0;
+}
+
+.course_detail h1 {
+    width: 80%;
+    font-size: 74px;
+    line-height: 84px;
+}
+
+.dynamic_page h1 {
+    width: 80%;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.blog_header {
+    padding: 70px 0px 30px 0;
+}
+
+.home_banner.course_detail h1 svg {
+    top: 15%;
+    right: 20%;
+    left: unset;
+}
+
+.home_banner.course_detail .row img {
+    right: 0;
+}
+
+.couse_detail .row_grid {
+    display: grid;
+    grid-template-columns: 30% 68%;
+    column-gap: 2%;
+}
+
+.couse_detail .row_grid .blue {
+    background: #101D51;
+    border-radius: 0 39px 39px 39px;
+    padding: 52px 35px 45px 35px;
+}
+
+.couse_detail .row_grid .blue p:first-child {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    width: 90%;
+    line-height: 18px;
+    color: #F2F2F2;
+    margin-bottom: 30px;
+}
+
+.couse_detail .row_grid .blue ul,
+.blog_header .row_grid .blue ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.couse_detail .row_grid .blue ul li,
+.couse_detail .row_grid .blue ul li a,
+.couse_detail .row_grid .blue ul li a:hover,
+.blog_header .row_grid .blue ul li,
+.blog_header .row_grid .blue ul li a,
+.blog_header .row_grid .blue ul li a:hover {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+    line-height: 18px;
+    color: #F2F2F2;
+    margin: 15px 0px;
+}
+
+.course_detail p.breadcrumb a,
+.blog_header p.breadcrumb a {
+    font-family: mathone;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #101D51;
+}
+
+.couse_detail .row_grid .dark_blue {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border-radius: 0px 39px 39px 39px;
+    padding: 45px 55px 29px 55px;
+}
+
+.couse_detail .row_grid .dark_blue .inner_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+.couse_detail .row_grid .dark_blue .inner_row .content p:last-child {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.couse_detail .row_grid .dark_blue .inner_row .content p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.couse_detail .row_grid .dark_blue .inner_row .content p span {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.couse_detail .row_grid .dark_blue .inner_row .btn a {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.course_table {
+    margin-top: 105px;
+}
+
+.course_table table tr td:first-child {
+    border-left: none;
+}
+
+.course_table table tr:last-child td {
+    border-bottom: none;
+}
+
+.course_table table tr:first-child td {
+    border-top: none;
+}
+
+.course_table table tr td:last-child {
+    border-right: none;
+}
+
+.course_table table {
+    table-layout: fixed;
+}
+
+.course_table tr td {
+    padding: 40px 100px 40px 50px;
+    border-color: #017EFA;
+    text-align: center;
+    align-items: center;
+}
+
+.course_table table tr:last-child td:first-child {
+    padding-left: 20px;
+}
+
+.course_table table tr:last-child td:first-child h4 {
+    text-align: left;
+    width: 100%;
+}
+
+.course_table tr.first_row td:first-child p {
+    font-family: 'PT Sans , sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #017EFA;
+}
+
+.course_table tr.first_row td {
+    padding: 0px 40px 20px 40px;
+}
+
+.course_table .show_on_desktop_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.course_table .show_on_desktop_grid div {
+    padding: 0px 40px;
+}
+
+.course_table .show_on_desktop_grid img {
+    margin-bottom: 50px;
+}
+
+.course_table .show_on_desktop_grid h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #101D51;
+}
+
+.course_table tr.first_row td h4 {
+    font-family: mathone;
+    font-style: normal;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.course_table tr.first_row td p {
+    font-family: 'Pt Sans', sans-serif;
+    text-transform: capitalize;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.course_table tr.first_row td h3 {
+    font-family: mathone;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #101D51;
+}
+
+.course_table tr td p,
+.course_table tr td p strong {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    display: block;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.course_table table tr td h4 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    display: block;
+    align-items: center;
+    width: 90%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #101D51;
+}
+
+.course_features {
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+.course_features .grid_row {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 15% 40% 40%;
+    column-gap: 2.5%;
+    padding-top: 200px;
+}
+
+.course_features .grid_row div p span {
+    font-family: mathone;
+    display: block;
+    font-style: normal;
+    margin: 20px 0 40px 0;
+    font-weight: 300;
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+    color: #017EFA;
+}
+
+.course_features .grid_row div p.buttn {
+    margin-bottom: 0;
+    margin-top: 100px;
+    width: max-content;
+}
+
+.course_features .grid_row div p.buttn a {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    padding: 15px 30px;
+    border: 1px solid #6b5d5d;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.course_features .grid_row div p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    margin-bottom: 40px;
+    font-weight: 300;
+    width: 95%;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(242, 242, 242, .6);
+}
+
+.course_features .grid_row div:first-child {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.course_features svg.bg {
+    /* margin-top: -700px;
+z-index: -1; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100% !important;
+}
+
+.course_features h2.courses {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #F2F2F2;
+}
+
+.course_features .second_grid_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.course_features .second_grid_row .box {
+    background: linear-gradient( 119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border: 2px dashed #FFFFFF;
+    padding: 100px 34px 36px 30px;
+    border-radius: 24px;
+}
+
+.course_features .second_grid_row .box h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 39px;
+    color: #FFFFFF;
+}
+
+.course_features .second_grid_row .box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 39px;
+}
+
+.course_features .second_grid_row .box ul li {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 5px 0;
+    color: #FFFFFF;
+}
+
+.course_features .second_grid_row .box p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    margin-bottom: 39px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.course_features .second_grid_row .box a {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    padding: 11px 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subject_detail.home_banner.course_detail h1 svg {
+    top: 75%;
+    right: 40%;
+}
+
+.subject_detail.home_banner.course_detail svg.svg {
+    position: absolute;
+    right: 50px;
+    top: -50px;
+}
+
+.blog_list {
+    padding: 60px 0px 120px 0;
+}
+
+.blog_list .blog_box h3 {
+    font-family: Mathone;
+    font-style: normal;
+    width: 75%;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+    margin-bottom: 40px;
+}
+
+.blog_list .blog_box p {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.blog_list h3 svg {
+    margin-left: 30px;
+}
+
+.blog_list .second {
+    padding-top: 100px;
+}
+
+.blog_list .blog_box.open_box img {
+    width: 95%;
+}
+
+.blog_list .blog_box.open_box p span {
+    color: #FF4335;
+}
+
+.blog_list .blog_box.open_box p.readmore {
+    padding: 0px 30px;
+}
+
+.blog_list .blog_box.open_box .row {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog_list .blog_box.open_box h2 {
+    font-family: Mathone;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 66px;
+    color: #017EFA;
+}
+
+.blog_list h3 {
+    font-family: Mathone;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #017EFA;
+}
+
+.blog_list .blog_box {
+    border: 1px solid #2DB3A6;
+    border-radius: 20px;
+    padding: 35px 50px 35px 35px;
+}
+
+.blog_list .blog_box img {
+    margin-bottom: 40px;
+}
+
+.blog_list .blog_box p.readmore {
+    background: #2877ED;
+    border-radius: 50px;
+    min-height: 43px;
+    min-width: 300px;
+    margin-bottom: 0;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog_list .blog_box p.readmore a {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subject_detail.home_banner.course_detail {
+    padding-bottom: 160px;
+}
+
+.subject_detail.home_banner.course_detail h1 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 74px;
+    line-height: 84px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+.blog_header h1 svg {
+    position: absolute;
+    bottom: -5%;
+    right: 2%;
+    z-index: -1;
+}
+
+.blog_header .row {
+    position: relative;
+}
+
+.blog_header svg {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    z-index: 1;
+}
+
+.blog_header h1 {
+    font-family: mathone;
+    font-style: normal;
+    -webkit-text-stroke-width: 4.64px !important;
+    -webkit-text-stroke-color: #101D51;
+    font-weight: normal;
+    position: relative;
+    width: max-content;
+    font-size: 74px;
+    line-height: 84px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.subject_feature .grid_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+.subject_feature .grid_row h3 {
+    font-family: mathone;
+    font-style: normal;
+    width: 80%;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.story.subject_feature .grid_row p {
+    width: 80%;
+}
+
+.story.subject_feature .grid_row {
+    column-gap: 40px;
+}
+
+.subject_feature .grid_row p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 25px;
+    width: 98%;
+    color: #fff;
+}
+
+.subject_feature .grid_row .schedual_box {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border: 1px dashed #FFFFFF;
+    border-radius: 0px 39px 39px 39px;
+    padding: 46px 90px;
+    z-index: 1;
+    height: fit-content;
+}
+
+.subject_feature .grid_row .schedual_box h3 {
+    font-family: mathone;
+    margin-bottom: 25px;
+    width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.subject_feature .grid_row .schedual_box a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+    width: max-content;
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F2F2F2;
+}
+
+.subject_feature .grid_row.second {
+    margin-top: 90px;
+}
+
+.subject_feature .grid_row.second p {
+    width: 90%;
+}
+
+.subject_feature .grid_row.second p span {
+    font-family: mathone;
+    display: block;
+    margin: 5px 0;
+    color: #2877ED;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.subject_feature .grid_row.second ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.subject_feature .grid_row.second ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 2px 0;
+    line-height: 25px;
+    width: 80%;
+    color: #101D51;
+}
+
+.subject_feature .grid_row.second p.btnn {
+    margin: 100px 0px 0px 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.subject_feature .grid_row.second p.btnn a svg {
+    margin-left: 30px;
+}
+
+.subject_feature .grid_row.second p.btnn a {
+    font-family: mathone;
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+
+.dynamic_page .grid_row {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+.dynamic_page .grid_row h3 {
+    font-family: mathone;
+    font-style: normal;
+    width: 80%;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.story.dynamic_page .grid_row p {
+    width: 80%;
+}
+
+.story.dynamic_page .grid_row {
+    column-gap: 40px;
+}
+
+.dynamic_page .grid_row p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 25px;
+    width: 98%;
+    color: #fff;
+}
+
+.dynamic_page .grid_row .schedual_box {
+    background: linear-gradient(119.88deg, #51CBFF 13.67%, #017EFA 59%);
+    border: 1px dashed #FFFFFF;
+    border-radius: 0px 39px 39px 39px;
+    padding: 46px 90px;
+    z-index: 1;
+    height: fit-content;
+}
+
+.dynamic_page .grid_row .schedual_box h3 {
+    font-family: mathone;
+    margin-bottom: 25px;
+    width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.dynamic_page .grid_row .schedual_box a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+    width: max-content;
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F2F2F2;
+}
+
+.dynamic_page .grid_row.second {
+    margin-top: 90px;
+}
+
+.dynamic_page .grid_row.second p {
+    width: 90%;
+}
+
+.dynamic_page .grid_row.second p span {
+    font-family: mathone;
+    display: block;
+    margin: 5px 0;
+    color: #2877ED;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.dynamic_page .grid_row.second ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.dynamic_page .grid_row.second ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 2px 0;
+    line-height: 25px;
+    width: 80%;
+    color: #101D51;
+}
+
+.dynamic_page .grid_row.second p.btnn {
+    margin: 100px 0px 0px 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.dynamic_page .grid_row.second p.btnn a svg {
+    margin-left: 30px;
+}
+
+.dynamic_page .grid_row.second p.btnn a {
+    font-family: mathone;
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.curriculum {
+    margin-top: 90px;
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.curriculum h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 80px;
+    color: #017EFA;
+    width: 70%;
+}
+
+.curriculum svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.curriculum a svg {
+    position: unset;
+    width: auto;
+}
+
+.curriculum a {
+    background: #F2F2F2;
+    border-radius: 24px;
+    font-family: mathone;
+    font-style: normal;
+    padding: 35px;
+    font-weight: normal;
+    font-size: 24.9018px;
+    line-height: 29px;
+    color: #101D51;
+}
+
+.story_banner img.absolute {
+    right: 0 !important;
+    top: -30px !important;
+}
+
+.home_banner.course_detail.story_banner h1 svg {
+    right: 15%;
+    top: 55px;
+}
+
+.home_banner.course_detail.story_banner.competitions h1 svg {
+    right: 20%;
+    top: 80%;
+}
+
+.home_banner.course_detail.story_banner.competitions svg {
+    position: absolute;
+    right: 1.5%;
+}
+
+.home_banner.course_detail.story_banner.competitions {
+    padding: 100px 0 200px 0;
+}
+
+.home_banner.course_detail.story_banner.competitions img {
+    top: -80%;
+    width: 55%;
+    right: -50px;
+}
+
+.competitions {
+    overflow: hidden;
+}
+
+.home_banner.course_detail.story_banner svg.absolute {
+    right: 5%;
+    position: absolute;
+}
+
+.staff {
+    padding: 50px 0px 50px 0;
+}
+
+.staff h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.staff .staf_row {
+    margin-top: 50px;
+}
+
+.testimonial .team_box {
+    border: 1px solid #2DB3A6;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.testimonial .team_box img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.vision h3 {
+    font-family: Mathone;
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #017EFA;
+}
+
+.vision h2 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 20px 0;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.staff .staf_row .team_box {
+    border: 1px solid #2DB3A6;
+    border-radius: 20px;
+    padding:25px;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    column-gap: 5%;
+    height:100%!important
+}
+
+
+.staff .staf_row .team_box h3,
+.testimonial .team_box h3 {
+    color: #101D51;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.staff .staf_row .team_box p,
+.testimonial .team_box p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 0;
+    color: #101D51;
+}
+
+.words h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.words .words_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 35px;
+}
+
+.words .words_row .box {
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 55px;
+}
+
+.words .words_row .box p {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.words {
+    padding: 50px 0;
+}
+
+.testimonial {
+    padding-top: 40px;
+}
+
+.testimonial h3 span {
+    float: right;
+}
+
+.testimonial h3 span svg {
+    margin-left: 20px;
+}
+
+.testimonial h3 {
+    font-family: Mathone;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.story .grid_row h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.story .grid_row ul {
+    padding-left: 0;
+}
+
+.story .grid_row ul li {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px 0;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.competitions.testimonial .owl-carousel .team_box h3 {
+    color: #017EFA;
+    margin-bottom: 40px;
+}
+
+.story.competitions .schedual_box {
+    padding: 40px 40px;
+}
+
+.home_banner.course_detail.subject_detail.story_banner.open_house svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.home_banner.course_detail.subject_detail.story_banner.open_house {
+    padding-bottom: 40px;
+}
+
+.home_banner.course_detail.subject_detail.story_banner.open_house img {
+    top: -0%;
+    right: 0;
+}
+
+.home_banner.course_detail.subject_detail.story_banner.open_house h1 svg {
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+.subject_feature.story.competitions.open_house p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #101D51;
+}
+
+.subject_feature.story.competitions.open_house .grid_row {
+    align-items: flex-end;
+}
+
+.time_table {
+    padding: 50px 0;
+}
+
+.time_table tr th,
+.time_table tr td {
+    background-color: #F5F5F5;
+    border-color: #017EFA;
+    padding: 25px 0px 15px 25px;
+}
+
+.time_table tr td {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.9811px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #101D51;
+}
+
+.time_table tr td button {
+    background: #101D51;
+    border-radius: 18.8679px;
+    border-color: #101D51;
+}
+
+.time_table tr td button a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.9811px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+}
+
+.time_table tr th {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.9811px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #017EFA;
+}
+
+.accolades.home_banner.course_detail.story_banner.competitions {
+    padding-bottom: 50px;
+}
+
+.accolades.home_banner.course_detail.story_banner.competitions img {
+    width: auto;
+    top: -35%;
+    right: 5%;
+}
+
+.accolad .flex_div {
+    display: grid;
+    grid-template-columns: 65% 30%;
+    column-gap: 5%;
+}
+
+.season_subject .right_content h2 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 26px;
+    color: #017EFA;
+}
+
+.season_subject .right_content p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.season_subject .right_content p.small {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.season_subject .right_content svg {
+    margin-right: 10px;
+}
+
+.dates {
+    padding: 150px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.dates svg {
+    position: absolute;
+    left: 0;
+    height: 100% !important;
+    top: 0;
+    width: 100%;
+}
+
+.dates h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.dates table tr td,
+.dates table tr th {
+    border-color: #fff;
+}
+
+.dates p,
+.dates table tr td,
+.dates table tr th {
+    font-family: averta;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.levels {
+    position: relative;
+    padding: 100px 0 50px 0;
+}
+
+.levels .inner {
+    margin-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.levels .inner .level_box {
+    margin-bottom: 60px;
+}
+
+.levels h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.levels svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.levels p,
+.levels p a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    opacity: .8;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.season_subject .right_content a.register {
+    font-family: mathone;
+    min-width: 290px;
+    min-height: 63px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    border: 1px solid #2F80ED;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    width: fit-content;
+    border-radius: 50px;
+    justify-content: center;
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+.season_subject .right_content h3 {
+    font-family: mathone;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #101D51;
+}
+
+.season_subject .right_content {
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.season_subject .blue_box a {
+    margin-bottom: 11px;
+    display: block;
+}
+
+.season_subject .blue_box a,
+.season_subject .blue_box a p {
+    font-family: mathone;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.season_subject .blue_box {
+    background: #101D51;
+    border-radius: 0px 39px 39px 39px;
+    padding: 50px 69px;
+}
+
+.accolad .schedual_box .flex_div {
+    display: grid !important;
+    grid-template-columns: 60% 35% !important;
+}
+
+.accolad .schedual_box .flex_div ul {
+    list-style-type: none;
+}
+
+.accolad .schedual_box .flex_div ul li.active {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #101D51;
+}
+
+.accolad .schedual_box .flex_div ul li {
+    font-family: Mathone;
+    display: inline-block;
+    width: 45%;
+    margin-right: 2.5%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.accolad .flex_div h3 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 32px;
+    width: 100%;
+    color: #101D51;
+}
+
+.accolad .flex_div h3 span {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 20px;
+    color: #101D51;
+}
+
+.accolad p.bottom {
+    font-family: 'PT Sans', sans-serif;
+    width: 100% !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    /* text-transform: capitalize; */
+    color: #101D51;
+}
+
+.testimonial.acolades .grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonial.acolades .grid-row h3 {
+    float: unset;
+    text-align: right;
+}
+
+.testimonial.acolades .grid-row h2 {
+    font-family: Mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 30px;
+    color: #101D51;
+}
+
+.acolad_gallery .row {
+    padding: 0 45px;
+}
+
+.acolad_gallery {
+    padding-top: 70px;
+}
+
+.acolad_gallery .row .grid_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+.acolad_gallery h2 {
+    font-family: Mathone;
+    margin-bottom: 40px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: left;
+    line-height: 30px;
+    color: #101D51;
+}
+
+.header a svg {
+    width: 150px;
+}
+
+.header ul {
+    margin-left: 30px;
+}
+
+.header ul li a svg {
+    width: auto;
+}
+
+.header ul li:hover .dropdown {
+    display: block;
+}
+
+.header ul li:hover .dropdown li.dropdown_ul ul {
+    display: none;
+}
+
+.header ul li:hover .dropdown li.dropdown_ul:hover .dropdown.inner {
+    position: relative;
+    height: 0;
+}
+
+.header ul li:hover .dropdown li.dropdown_ul:hover ul {
+    display: block !important;
+    position: absolute;
+    min-width: 150px;
+    left: 100% !important;
+    top: 0 !important;
+}
+
+.header ul li:hover .dropdown li.dropdown_ul:hover ul li {
+    padding-left: 0 !important;
+}
+
+.year_list {
+    padding: 50px 0 0 0;
+}
+
+.year_list ul {
+    list-style-type: none;
+    /* padding-left: 0; */
+    margin-bottom: 0;
+}
+
+.season_subject .content {
+    margin-top: 80px;
+}
+
+.season_subject .content h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #101D51;
+}
+
+.season_subject .content_dynamic h3 {
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #101D51;
+}
+
+.season_subject .faculty {
+    margin-top: 170px;
+}
+
+.season_subject .content p {
+    font-family: averta;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #101D51;
+}
+.season_subject .content_dynamic p {
+    font-family: averta;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #101D51;
+}
+/*Dyanmic course page */
+.season_subject .content_dynamic pre {
+    font-family: averta;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #101D51;
+}
+/*Dyanmic course page */
+.season_subject .content_dynamic ul li {
+    font-family: averta;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #101D51;
+}
+
+.year_list ul li.active {
+    color: #101D51;
+}
+
+.year_list ul span {
+    margin: 0px 10px;
+    color: #017EFA;
+}
+
+.year_list ul li {
+    display: inline-block;
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #017EFA;
+}
+
+@media only screen and (max-width:1400px) {
+    .header ul li {
+        text-transform: capitalize !important;
+    }
+    .header ul li a {
+        text-transform: capitalize !important;
+    }
+    .header ul li {
+        margin-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .header .absolute {
+        width: 100px !important;
+    }
+    .testimonial.acolades .grid-row h2,
+    .acolad_gallery h2 {
+        font-size: 20px !important;
+    }
+    .acolad_gallery {
+        padding-top: 20px !important;
+    }
+    .acolad_gallery .row {
+        padding: 0 20px;
+    }
+    .competitions.testimonial .owl-carousel .team_box h3 {
+        margin-bottom: 20px !important;
+    }
+    .testimonial h3,
+    .testimonial h3 span {
+        font-size: 20px !important;
+    }
+    .testimonial h3 span {
+        text-align: left;
+        float: unset;
+        display: block;
+    }
+    .testimonial {
+        padding: 20px 0!important;
+    }
+    .testimonial .team_box img {
+        width: auto !important;
+    }
+    .staff,
+    .words {
+        padding: 25px 0 !important;
+    }
+    .staff h3,
+    .words h3 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    .words h3 {
+        margin-bottom: 20px !important;
+    }
+    .words .words_row {
+        column-gap: 20px !important;
+        row-gap: 20px !important;
+    }
+    .words .words_row .box {
+        padding: 20px !important;
+    }
+    .words .words_row .box p {
+        font-weight: normal !important;
+    }
+    .staff .staf_row {
+        margin-top: 20px !important;
+    }
+    .staff .staf_row .team_box,
+    .testimonial .team_box {
+        padding: 20px !important;
+        height: 100% !important;
+    }
+    .subject_detail.home_banner.course_detail svg.svg {
+        width: 40% !important;
+        top: -120px !important;
+    }
+    .subject_detail.home_banner.course_detail {
+        padding-bottom: 50px !important;
+    }
+    .subject_detail.home_banner.course_detail h1 svg {
+        top: 50% !important;
+        right: 20% !important;
+    }
+    .course_detail p.breadcrumb {
+        padding: 5px 0 !important;
+    }
+    .course_detail p.breadcrumb a,
+    .blog_header p.breadcrumb a {
+        font-size: 10px !important;
+        text-transform: capitalize !important;
+    }
+    .announcements.couse_detail {
+        margin-top: 0 !important;
+    }
+    .course_table {
+        margin-top: 40px !important;
+    }
+    .course_table .show_on_desktop_grid h3 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    .course_table .show_on_desktop_grid img {
+        width: 100px !important;
+        margin: 0 auto 30px auto !important;
+    }
+    .course_table tr td {
+        padding: 15px !important;
+    }
+    .course_table table tr td h4,
+    .course_table tr td p,
+    .course_table tr td p strong {
+        width: 100% !important;
+        font-size: 14px !important;
+        text-transform: capitalize !important;
+    }
+    .course_features .grid_row {
+        padding-top: 100px !important;
+        margin-bottom: 150px !important;
+    }
+    .blog_list .blog_box.open_box h2 {
+        font-size: 35px !important;
+        line-height: 45px !important;
+        margin-bottom: 20px !important;
+    }
+    .blog_list .blog_box.open_box img {
+        width: 100% !important;
+    }
+    .course_features svg.bg {
+        height: 100% !important;
+    }
+    .course_features .grid_row div p.buttn {
+        margin-top: 20px !important;
+    }
+    .course_features h2.courses {
+        font-size: 25px !important;
+        line-height: 20px !important;
+    }
+    .course_features .grid_row div p.buttn a {
+        padding: 5px 30px !important;
+        font-size: 14px !important;
+        text-transform: capitalize !important;
+    }
+    .course_features .grid_row div p,
+    .course_features .grid_row div p span {
+        font-size: 14px !important;
+        width: 100% !important;
+        line-height: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .course_table table tr td svg {
+        width: 20px !important;
+    }
+    .courses {
+        margin-top: -100px !important;
+    }
+    .course_features .second_grid_row {
+        column-gap: 20px !important;
+    }
+    .news {
+        margin-top: 30px !important;
+    }
+    .steller {
+        margin-top: 40px !important;
+    }
+    .steller h1,
+    .steller .h1,
+    .news .h1,
+    .news h1 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        -webkit-text-stroke: 2px !important;
+        -webkit-text-stroke-color: #101D51 !important;
+        margin-bottom: 20px !important;
+    }
+    .courses .header_h1 {
+        top: 500px !important;
+    }
+    .courses .header_h1 h1 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        -webkit-text-stroke: 2px !important;
+        -webkit-text-stroke-color: #fff !important;
+        margin-bottom: 40px !important;
+    }
+    .courses .header_h1 h1 svg {
+        right: 40% !important;
+        top: 0 !important;
+    }
+    .courses .header_h1 .grid_row {
+        column-gap: 20px !important;
+    }
+    .courses .grid_row .box h3 {
+        font-size: 20px !important;
+    }
+    .courses .grid_row .box p {
+        font-size: 14px !important;
+    }
+    .courses .grid_row .box,
+    .course_features .second_grid_row .box {
+        padding: 20px !important;
+    }
+    .courses .grid_row .box svg,
+    .courses .grid_row .box h3,
+    .courses .grid_row .box p {
+        margin-bottom: 20px !important;
+    }
+    .news h1 svg {
+        top: 0px !important;
+        left: -17.5% !important;
+        width: 200px !important;
+    }
+    .news .owl-carousel .news_box img,
+    .news .owl-carousel .news_box h3,
+    .news .owl-carousel .news_box p {
+        margin-bottom: 20px !important;
+    }
+    .news .owl-carousel .news_box h3 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .news .owl-carousel .news_box p {
+        font-size: 14px !important;
+        line-height: 15px !important;
+    }
+    .news .owl-carousel .news_box p.button {
+        margin-top: 10px !important;
+    }
+    .steller h1 .h1 svg {
+        top: 0 !important;
+        right: -20% !important;
+    }
+    .steller p {
+        font-size: 14px !important;
+        width: 80% !important;
+        margin-bottom: 30px !important;
+    }
+    .steller .owl-carousel,
+    .news .owl-carousel {
+        padding: 0 5% !important;
+        margin-bottom: 30px !important;
+    }
+    .steller .owl-carousel .box p {
+        width: 100% !important;
+        margin-bottom: 0 !important;
+        line-height: 20px !important;
+    }
+    .steller p svg.star {
+        right: 0 !important;
+    }
+    .footer_bottom .grid_rw ul li {
+        font-size: 11px !important;
+    }
+    .footer_bottom .grid_rw {
+        grid-template-columns: 5% 65% 10% 20% !important;
+    }
+    .footer_bottom .grid_rw p {
+        font-size: 10px !important;
+        width: 100% !important;
+    }
+    .footer_bottom .grid_rw svg {
+        width: 100% !important;
+    }
+    .footer_bottom {
+        margin-top: 30px !important;
+    }
+    .footer_bottom .grid_rw ul li {
+        margin-right: 5px !important;
+    }
+    .footer_bottom ul li:nth-child(3) {
+        padding: 0px 3px !important;
+    }
+    .course_banner .container .row h1.main_heading {
+        font-size: 45px !important;
+        line-height: 45px !important;
+        -webkit-text-stroke-width: 3px !important;
+        margin-bottom: 20px !important;
+    }
+    .course_banner .container .row h1.main_heading svg {
+        top: 10px !important;
+        width: 50%;
+    }
+    .course_banner p {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        width: 100% !important;
+    }
+    .course_banner {
+        padding-top: 30px !important;
+    }
+    .courses_list {
+        padding-top: 30px !important;
+    }
+    .courses_list svg {
+        margin-top: 0% !important;
+        height: 100% !important;
+    }
+    .courses_list .container svg.star {
+        height: auto !important;
+        bottom: 0 !important;
+        right: 10% !important;
+    }
+    .courses_list .container .grid_row,
+    .course_banner .container .row,
+    .contact .row {
+        padding: 0px 20px !important;
+    }
+    .courses_list .container .grid_row {
+        row-gap: 20px !important;
+        column-gap: 20px !important;
+    }
+    .courses_list .container .course_box {
+        padding: 20px !important;
+    }
+    .courses_list .container .course_box h3,
+    .course_features .second_grid_row .box h3 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        margin-bottom: 20px !important;
+        font-weight: normal !important;
+    }
+    .courses_list .container .course_box ul,
+    .course_features .second_grid_row .box ul {
+        margin-bottom: 20px !important;
+    }
+    .courses_list .container .course_box ul li,
+    .course_features .second_grid_row .box ul li {
+        font-size: 14px !important;
+        margin: 2px 0 !important;
+        font-weight: normal !important;
+    }
+    .courses_list .container .course_box ul li small {
+        font-size: 12px !important;
+        margin: 2px 0 !important;
+        margin-left: 10px !important;
+        font-weight: normal !important;
+    }
+    .courses_list .container .course_box p,
+    .course_features .second_grid_row .box p {
+        margin-bottom: 20px !important;
+    }
+    .contact {
+        padding-top: 40px !important;
+    }
+    .contact h1,
+    .contact h1 span {
+        font-size: 30px !important;
+        line-height: 30px !important;
+        -webkit-text-stroke-width: 2px !important;
+        margin-bottom: 40px !important;
+    }
+    .contact h1 svg.star {
+        top: -35px !important;
+    }
+    .contact form label span input,
+    .contact form label span select,
+    .contact a.email,
+    .contact a,
+    .contact .social {
+        font-size: 14px !important;
+    }
+    .contact form label,
+    .contact a.email,
+    .contact a {
+        margin-bottom: 10px !important;
+    }
+    .contact .social {
+        margin: 10px 0 !important;
+    }
+    .contact .follow a {
+        margin-bottom: 5px !important;
+        margin-bottom: 0 !important;
+    }
+    .contact h1 span {
+        width: 50% !important;
+        margin-right: 0% !important;
+    }
+    .contact h1 svg {
+        right: 15% !important;
+        top: 0 !important;
+    }
+    .subject_feature .grid_row {
+        column-gap: 30px !important;
+    }
+    .subject_feature .grid_row h3,
+    .subject_feature .grid_row .schedual_box h3,
+    .subject_feature .grid_row.second p span,
+    .curriculum h3 {
+        width: 100% !important;
+        font-size: 18px !important;
+    }
+    .curriculum h3 {
+        margin-bottom: 10px !important;
+    }
+    .subject_feature .grid_row.second ul {
+        margin-top: 10px !important;
+    }
+    .subject_feature .grid_row .schedual_box a {
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 16px !important;
+        justify-content: center !important;
+    }
+    .curriculum {
+        margin-top: 0px !important;
+    }
+    .curriculum a svg {
+        width: 40px !important;
+    }
+    .curriculum a {
+        padding: 20px !important;
+    }
+    .subject_feature .grid_row p,
+    .subject_feature .grid_row.second ul li,
+    .subject_feature .grid_row.second p.btnn a,
+    .curriculum a {
+        font-size: 14px !important;
+        margin: 5px 0 !important;
+        width: 100% !important;
+        line-height: 20px !important;
+    }
+    .subject_feature .grid_row .schedual_box {
+        padding: 25px !important;
+        height: 100% !important;
+    }
+    .subject_feature .grid_row.second {
+        margin-top: 30px !important;
+    }
+    .course_banner .container .row,
+    .contact .row,
+    .home_banner .row,
+    .announcements .row,
+    .school .row,
+    .steller .row,
+    .news .row,
+    .courses .row,
+    .course_features .second_grid_row,
+    .course_features h2.courses,
+    .footer_bottom .row,
+    .subject_feature .grid_row,
+    .curriculum .row,
+    .blog_header .row,
+    .blog_list .row,
+    .staff .row,
+    .words .row,
+    .testimonial .row,
+    .time_table .row,
+    .scholarship_holder .row,
+    .recent_scholars .row {
+        padding: 0px 20px !important;
+    }
+    .blog_list .blog_box {
+        padding: 20px !important;
+        border-radius: 10px !important;
+    }
+    .blog_list .blog_box h3 {
+        font-size: 18px !important;
+        width: 100% !important;
+        line-height: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .blog_list h3 {
+        font-size: 18px !important;
+        width: 100% !important;
+        line-height: 20px !important;
+    }
+    .blog_list .blog_box h3 {
+        font-size: 18px !important;
+        width: 100% !important;
+        line-height: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .blog_list .blog_box img {
+        margin-bottom: 20px !important;
+    }
+    .blog_list .blog_box p {
+        margin-bottom: 20px !important;
+        font-size: 14px !important;
+    }
+    .blog_list .blog_box p.readmore {
+        margin-bottom: 0 !important;
+    }
+    .blog_list .blog_box p.readmore a {
+        font-size: 14px !important;
+    }
+    .course_features .grid_row {
+        padding: 150px 20px 0 20px !important;
+    }
+    .course_features svg.bg {
+        top: -30% !important;
+        height: 190% !important;
+    }
+    .course_features {
+        overflow: hidden !important;
+        padding-bottom: 50px !important;
+    }
+    .home_banner .row img {
+        right: 0 !important;
+        width: 30% !important;
+    }
+    .blog_header h1 svg {
+        right: 0% !important;
+        bottom: -5% !important;
+        width: 200px !important;
+    }
+    .blog_header,
+    .blog_list {
+        padding: 30px 0 !important;
+    }
+    .home_banner h1,
+    .blog_header h1 {
+        font-size: 45px !important;
+        line-height: 45px !important;
+        -webkit-text-stroke-width: 2px !important;
+    }
+    .home_banner {
+        padding-top: 40px !important;
+    }
+    .couse_detail {
+        margin-top: 0 !important;
+    }
+    .couse_detail .row_grid .blue p:first-child {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .couse_detail .row_grid .blue ul li {
+        margin: 5px 0 !important;
+    }
+    .couse_detail .row_grid .blue {
+        padding: 15px !important;
+    }
+    .couse_detail .row_grid .dark_blue {
+        padding: 15px !important;
+    }
+    .couse_detail .row_grid .dark_blue .inner_row .content p:last-child {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    .couse_detail .row_grid .dark_blue .inner_row {
+        column-gap: 20px !important;
+    }
+    .couse_detail .row_grid .dark_blue .inner_row .btn a {
+        padding: 10px !important;
+    }
+    .announcements {
+        margin-top: 40px !important;
+    }
+    .announcements .container .box {
+        padding: 20px !important;
+        border-radius: 20px !important;
+    }
+    .announcements .container .box .grid-row h1 ,
+    .announcements .container .box .grid-row .h1 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    .announcements .container .box .grid-row p {
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+    .announcements .container .box .grid-row p.button {
+        width: max-content !important;
+    }
+    .announcements .container .box .grid-row p.button a {
+        padding: 5px 15px !important;
+    }
+    .school {
+        margin-top: -100px !important;
+    }
+    .school .absolute {
+        bottom: 100px !important;
+        width: 70% !important;
+    }
+    .school .content {
+        bottom: 100px !important;
+    }
+    .school .content h1 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        -webkit-text-stroke: 1px !important;
+        -webkit-text-stroke-color: #fff !important;
+        margin-bottom: 25px !important;
+    }
+    .school .content p {
+      font-size: 12px !important;
+        font-size: 14px !important;
+       width: 85% !important;
+        width: 80% !important;
+       line-height: 15px !important;
+        line-height: 20px !important;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .course_table tr.first_row.show {
+        display: table-row !important;
+    }
+    .course_table tr.first_row {
+        display: none !important;
+    }
+    .mobile_menu {
+        display: none;
+    }
+    .hide_on_desktop {
+        display: none !important;
+    }
+    .courses,
+    .school {
+        background-image: none !important;
+    }
+    .levels svg,
+    .dates svg {
+        display: block !important;
+        /* height: 100%; */
+    }
+    .levels img,
+    .dates img {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .faculty_slider svg.next_btn,
+    .faculty_slider svg.previous_btn {
+        display: none !important;
+    }
+    .blue-box .grid-content {
+        grid-template-columns: 35% 60% !important;
+    }
+    .faculty_slider .owl-nav {
+        display: none !important;
+    }
+    .season_subject .blue_box {
+        padding: 20px !important;
+    }
+    .dates svg,
+    .levels svg {
+        display: none !important;
+    }
+    .levels img,
+    .dates img {
+        display: block !important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 105% !important;
+    }
+    .accolad .flex_div {
+        display: block !important;
+    }
+    .scholarship_holder h3 {
+        font-size: 16px !important;
+    }
+    .scholarship_holder .grid_row {
+        column-gap: 15px !important;
+    }
+    .scholarship_holder .grid_row .box h3 {
+        font-size: 16px !important;
+    }
+    .course_table_list table {
+        table-layout: fixed;
+    }
+    .course_table_list table tr td {
+        min-width: 150px;
+        width: 200px;
+    }
+    .scholarship.home_banner.course_detail.story_banner.competitions img {
+        top: -15% !important;
+    }
+    .course_table_list table tr td span.self span {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .time_table .table {
+        table-layout: fixed;
+    }
+    .time_table .table tr th,
+    .time_table .table tr td {
+        width: 200px;
+    }
+    .time_table tr th,
+    .time_table tr td {
+        padding: 10px !important;
+    }
+    .story .grid_row ul {
+        list-style-type: none !important;
+    }
+    .staff .staf_row .team_box {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .staff .staf_row .team_box h3,
+    .testimonial .team_box h3 {
+        margin-top: 20px !important;
+    }
+    .blog_header svg {
+        width: 200px !important;
+    }
+    .blog_list .blog_box p.readmore {
+        min-width: unset !important;
+        padding: 0px 50px !important;
+    }
+    .subject_feature .grid_row .schedual_box {
+        height: fit-content !important;
+        border-radius: 20px !important;
+    }
+    .curriculum svg {
+        height: 100% !important;
+    }
+    .subject_detail.home_banner.course_detail h1 svg {
+        width: 200px !important;
+        right: 50% !important;
+    }
+    .curriculum {
+        min-height: 400px !important;
+    }
+    .course_table .show_on_desktop_grid,
+    .course_table tr.first_row.show {
+        display: none;
+    }
+    .course_table tr.first_row td h3 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        margin-bottom: 20px !important;
+        width: 100% !important;
+        text-align: left !important;
+    }
+    .course_table tr.first_row td:first-child p {
+        line-height: 20px !important;
+        width: 100% !important;
+    }
+    .course_table tr.first_row td img {
+        width: 100px !important;
+        margin: 0 auto !important;
+    }
+    .course_features svg.bg {
+        display: none;
+    }
+    .course_features {
+        background-image: url('../image/courses_bg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .course_features h2.courses {
+        min-height: unset !important;
+        margin-bottom: 30px !important;
+    }
+    .course_features .second_grid_row {
+        margin-top: 30px !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 20px !important;
+    }
+    .course_table tr.first_row td h4 {
+        margin: 10px 0 !important;
+    }
+    .course_table tr.first_row td p {
+        line-height: 20px !important;
+    }
+    .course_table tr td {
+        width: 300px !important;
+    }
+    .course_table tr.first_row {
+        display: table-row;
+    }
+    .couse_detail .row_grid .blue,
+    .couse_detail .row_grid .dark_blue {
+        border-radius: 0px 20px 20px 20px !important;
+    }
+    .home_banner.course_detail .row img {
+        /* top: 40% !important; */
+        right: 0 !important;
+    }
+    .home_banner.course_detail.competitions .row img {
+        top: -40% !important;
+    }
+    .couse_detail .row_grid {
+        grid-template-columns: 45% 54% !important;
+        column-gap: 1% !important;
+    }
+    .couse_detail .row_grid .dark_blue .inner_row {
+        grid-template-columns: 100% !important;
+        column-gap: 0 !important;
+        row-gap: 5px !important;
+    }
+    .mobile_menu.show {
+        display: flex !important;
+    }
+    .mobile_menu.show ul li a svg {
+        color: #fff !important;
+    }
+    .mobile_menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1010;
+        display: none;
+        background: rgba(0, 0, 0, .9);
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile_menu.show .fa-times {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        color: #fff;
+    }
+    .mobile_menu ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .mobile_menu ul li a {
+        color: white;
+    }
+    .mobile_menu ul li {
+        margin: 10px 0;
+    }
+    .hide_on_desktop {
+        display: block;
+        position: absolute;
+        z-index: 100000;
+        right: 0;
+        top: 30px;
+    }
+    .header ul {
+        display: none;
+    }
+    .courses svg.w-100 {
+        display: none !important;
+    }
+    .courses .header_h1 h1 svg {
+        width: 200px !important;
+    }
+    .courses {
+        min-height: 800px !important;
+        background-size: 100% 100% !important;
+        background-position: center !important;
+        margin-top: 0 !important;
+    }
+    .courses .header_h1 {
+        position: unset !important;
+        padding-top: 100px !important;
+    }
+    /* .courses .header_h1 h1 {
+z-index: 1000 !important;
+}
+.courses .header_h1 h1 svg {
+z-index: 1 !important;
+} */
+    .courses .header_h1 .grid_row {
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 20px !important;
+    }
+    .news .owl-carousel .news_box p.button a {
+        padding: 10px 30px !important;
+    }
+    .steller p svg.star {
+        right: -15% !important;
+    }
+    .hide_on_mobile {
+        display: none !important;
+    }
+    .school {
+        min-height: 500px !important;
+        background-size: 100% 100% !important;
+        background-position: center !important;
+    }
+    .school .absolute {
+        top: 0 !important;
+        bottom: unset !important;
+    }
+    .school .content {
+        top: 150px !important;
+        bottom: unset !important;
+    }
+    .course_banner svg.star,
+    .courses_list .container svg.star {
+        right: 0 !important;
+    }
+    .announcements #announce_carousel .carousel-indicators li {
+        width: 8px !important;
+        height: 8px !important;
+        margin-right: 10px !important;
+    }
+    .courses_list .container .grid_row {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .contact h1 svg.star {
+        top: -30px !important;
+    }
+    .contact h1 span {
+        width: 100% !important;
+    }
+    .contact h1 {
+        text-align: right !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .blue-box {
+        padding: 10px !important;
+        border-radius: 0px 10px 10px 10px !important;
+    }
+    .blue-box .grid-content .image-holder {
+        border-radius: 5px !important;
+    }
+    .blue-box .grid-content {
+        grid-template-columns: 100% !important;
+        row-gap: 20px !important;
+        column-gap: 0 !important;
+    }
+    .blue-box .grid-content .content-holder ul {
+        list-style-type: none !important;
+    }
+    .levels img {
+        height: 110% !important;
+    }
+    .testimonial.acolades .grid-row {
+        display: block !important;
+    }
+    .acolad_gallery .row .grid_row {
+        column-gap: 15px !important;
+    }
+    .recent_scholars .grid_row,
+    .scholarship_holder .grid_row {
+        grid-template-columns: 100% !important;
+        column-gap: 0 !important;
+        row-gap: 15px !important;
+    }
+    .recent_scholars .grid_row .content h3,
+    .recent_scholars .grid_row .content .box p,
+    .recent_scholars .grid_row .content .box h3,
+    .recent_scholars .grid_row .boxed_content h3 {
+        text-transform: capitalize !important;
+    }
+    .words .words_row {
+        column-gap: 0 !important;
+        grid-template-columns: 100% !important;
+    }
+    .blog_list .blog_box.open_box h2 {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .blog_list .blog_box.open_box p.readmore {
+        padding: 0px 20px !important;
+        width: 100% !important;
+        word-break: break-word;
+    }
+    .curriculum {
+        min-height: 300px !important;
+    }
+    .subject_detail.home_banner.course_detail h1 svg {
+        right: -30% !important;
+    }
+    .course_features .grid_row {
+        grid-template-columns: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .subject_detail.home_banner.course_detail svg.svg {
+        top: -150px !important;
+    }
+    .subject_feature .grid_row {
+        column-gap: 0 !important;
+        row-gap: 20px !important;
+        grid-template-columns: 100% !important;
+    }
+    .courses .header_h1 h1 {
+        margin-bottom: 20px !important;
+    }
+    .courses .header_h1 .grid_row {
+        grid-template-columns: 100% !important;
+    }
+    .footer_bottom .grid_rw {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .course_banner .container .row h1.main_heading,
+    .home_banner h1,
+    .blog_header h1,
+    .blog_list h1 {
+        font-size: 35px !important;
+        -webkit-text-stroke-width: 2px !important;
+    }
+    .blog_header,
+    .blog_list {
+        padding: 15px 0 !important;
+    }
+    .blog_header h1 svg {
+        left: 0 !important;
+        right: unset !important;
+    }
+    .courses_list .container .grid_row {
+        column-gap: 10px !important;
+        row-gap: 10px !important;
+    }
+    .contact h1 svg,
+    .home_banner h1 svg,
+    .school .content h1 svg,
+    .steller h1 .h1 svg {
+        width: 200px !important;
+    }
+    h1,
+    h1 span {
+        display: inline !important;
+        word-wrap: break-word !important;
+    }
+    .steller h1 .h1 svg {
+        top: -20px !important;
+        right: 30% !important;
+    }
+    .steller p {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+    .steller p svg.star {
+        top: 0 !important;
+        right: 0 !important;
+    }
+    .steller .owl-carousel,
+    .news .owl-carousel {
+        padding: 0 2% !important;
+        margin-bottom: 15px !important;
+    }
+    .steller p.button a {
+        padding: 5px 25px !important;
+    }
+    .contact h1 svg.star {
+        width: 50px !important;
+    }
+    .announcements .container .box .grid-row p {
+        margin-bottom: 5px !important;
+    }
+    .announcements #announce_carousel .carousel-indicators {
+        bottom: -10% !important;
+    }
+    .school .content {
+        width: 70% !important;
+    }
+    .school .content p {
+        width: 100% !important;
+    }
+    .announcements .container .box .grid-row p.button a {
+        text-transform: capitalize !important;
+    }
+    .announcements .container .box .grid-row {
+        column-gap: 3% !important;
+    }
+    .announcements {
+        margin-top: 0 !important;
+    }
+    .contact form label span input,
+    .contact form label span select {
+        width: 100% !important;
+    }
+    .course_banner .container .row h1.main_heading svg {
+        right: 0 !important;
+    }
+    .course_banner .container .row h1.main_heading {
+        word-wrap: break-word !important;
+    }
+    .courses_list .container .grid_row,
+    .course_banner .container .row,
+    .contact .row {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .curriculum {
+        min-height: 150px !important;
+    }
+    .curriculum svg {
+        height: auto !important;
+    }
+    .school .content {
+        right: 0 !important;
+        width: 100% !important;
+    }
+    .school .absolute {
+        left: 0 !important;
+        width: 100% !important;
+        top: 100px !important;
+    }
+    .announcements .container .box .grid-row {
+        grid-template-columns: 100% !important;
+        column-gap: 0 !important;
+        row-gap: 10px !important;
+    }
+    .announcements #announce_carousel .carousel-indicators {
+        display: none !important;
+    }
+    .curriculum h3 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .course_banner .container .row h1.main_heading {
+        word-wrap: break-word !important;
+        display: block !important;
+        font-size: 25px !important;
+        position: unset !important;
+    }
+    .courses_list .container .course_box h3 {
+        font-size: 20px !important;
+        margin-bottom: 15px !important;
+    }
+    .courses_list .container .course_box p {
+        font-size: 14px !important;
+    }
+    .courses_list .container .course_box a {
+        text-transform: none !important;
+    }
+    .courses_list .container .grid_row {
+        grid-template-columns: 100% !important;
+    }
+    .course_banner .container .row h1.main_heading svg {
+        right: 30% !important;
+    }
+    .course_banner svg.star,
+    .courses_list .container svg.star {
+        right: 10% !important;
+    }
+    .footer_bottom .grid_rw {
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 10px !important;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .couse_detail .row_grid {
+        grid-template-columns: 100% !important;
+        column-gap: 0% !important;
+        row-gap: 1% !important;
+    }
+    .footer_bottom .grid_rw,
+    .course_features .second_grid_row {
+        grid-template-columns: repeat(1, 1fr) !important;
+        row-gap: 10px !important;
+    }
+}
+
+.dropdown {
+    display: block;
+    /* box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 10%); */
+    width: auto;
+    height: 100%;
+    z-index: 10000;
+    min-width: 150px;
+    position: absolute;
+    display: none;
+}
+
+.dropdown ul {
+    margin-left: 0;
+    position: relative;
+    z-index: 1000000;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 8%);
+}
+
+.header ul li.active a {
+    color: #017EFA;
+}
+
+.header {
+    transition: .4s all;
+}
+
+.header.stickymenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    LEFT: 0;
+    z-index: 11111111111111111111;
+    background: white;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 8%);
+}
+
+.dropdown ul li {
+    margin: 10px 0;
+    transition: .3s all;
+    margin-right: 0 !important;
+}
+
+.dropdown ul li:hover {
+    background-color: rgba(0, 0, 0, .08);
+}
+
+.dropdown ul li a {
+    padding: 5px 10px !important;
+    width: 100%;
+    display: block;
+    border: none !important;
+}
+
+/* Alumni css */
+
+main.alumni .row {
+    position: relative;
+}
+main.alumni h1 {
+    line-height: 114%;
+}
+main.alumni h1 svg {
+    left: 7%;
+    bottom: 0;
+    top: auto;
+}
+main.alumni .hero-text-col {
+    display: flex;
+    align-items: center;
+}
+main.alumni .hero-text {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #101D51;
+    max-width: 471px;
+}
+main.alumni .content {
+    margin: 81px 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+main.alumni .people {
+    margin-bottom: 25px;
+}
+main.alumni .people img {
+    width: 216px;
+    height: 216px;
+    object-fit: cover;
+    margin-bottom: 1.7rem;
+    border-radius: 500em;
+}
+main.alumni .people .bio {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    color: #101D51;
+    padding-left: 3.63rem;
+}
+main.alumni .people .bio h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108%;
+    color: #101D51;
+    margin: 0.5rem 0 1.7rem;
+}
+main.alumni .people .bio .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 981px;
+}
+main.alumni .people .bio p {
+    margin-bottom: 15px !important;
+}
+main.alumni .people .biotitle {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    color: #101D51;
+    padding-left: 3.63rem;
+}
+main.alumni .people .biotitle h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #101D51;
+}
+main.alumni .people .biotitle .text {
+    font-weight: 400;
+    max-width: 981px;
+    font-size: 16px;
+    line-height: 20px;
+}
+main.alumni .people .biotitle p {
+    margin-bottom: 15px !important;
+}
+main.alumni .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2.2rem 0 276px;
+}
+main.alumni .pagination .numbers {
+    display: flex;
+    gap: 10px;
+    margin: 0 1rem;
+    justify-content: center;
+}
+main.alumni .pagination .page-number {
+    font-family: 'mathone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #017EFA;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1200px) {
+    main.alumni .people .bio {
+        padding-left: 0;
+    }
+	main.alumni .people .biotitle {
+        padding-left: 0;
+    }
+    main.alumni .hero-text {
+        max-width: 100%;
+        margin: 2.16rem 0;
+    }
+    main.alumni .pagination .numbers {
+        display: none;
+    }
+}
+@media screen and (max-width:576px) {
+    main.alumni .people img {
+        margin: auto;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    main.alumni .people .bio h3 {
+        text-align: center;
+    }
+	  main.alumni .people .biotitle h3 {
+        text-align: center;
+    }
+}
+
+.alumni_home_banner {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.alumni_course_detail p.breadcrumb, .blog_header p.breadcrumb {
+    margin-bottom: 0px;
+    background: transparent;
+    padding-left: 0;
+}
+.alumni_course_detail p.breadcrumb a:first-child, .blog_header p.breadcrumb a:first-child {
+    margin-left: 0;
+}
+.alumni_course_detail p.breadcrumb a, .blog_header p.breadcrumb a {
+    font-family: mathone;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #101D51;
+}
+.alumni_course_detail h1 {
+    width: 80%;
+    font-size: 74px;
+    line-height: 84px;
+}
+.alumni_home_banner h1 {
+    position: relative;
+    z-index: 1000;
+    font-family: mathone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 120px;
+    letter-spacing: 0.02em;
+    -webkit-text-stroke-width: 4.64px !important;
+    -webkit-text-stroke-color: #101D51;
+    color: #FFFFFF;
+}
+.alumni_home_banner h1 svg {
+    position: absolute;
+    top: 20%;
+    left: 0.5%;
+    z-index: -1;
+}
+
+
+@media (min-width: 1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1440px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .alumni_home_banner h1 {
+        font-size: 35px !important;
+        -webkit-text-stroke-width: 2px !important;
+    }
+    .alumni_home_banner h1 svg {
+        width: 50%;
+        bottom: -0.5em !important;
+    }
+}
